@@ -68,9 +68,7 @@ Using pip: ::
     # Install from pypi
     sudo pip install pycronic
     # Latest version from git
-    sudo pip install https://github.com/piglei/pycronic/archive/master.zip
-    # Or install from github
-    sudo pip install -e git+https://github.com/piglei/pycronic/#egg=pycronic
+    sudo pip install https://github.com/huajigang/pycronic/archive/master.zip
     
 The version in pypi is out.Please don't use the version from pypi,because there is a error in this version,and it dosen't support 'tls/ssl'.
 
