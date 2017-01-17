@@ -107,6 +107,8 @@ file should look like this: ::
     # password = password
     # from = Cronic <pycronic@sample.com>
     # port = 587
+    # use_tls = False
+    # use_ssl = False
 
 How to use
 ==========
