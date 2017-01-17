@@ -72,6 +72,7 @@ Using pip: ::
     # Or install from github
     sudo pip install -e git+https://github.com/piglei/pycronic/#egg=pycronic
     
+The version in pypi is out.Please don't use the version from pypi,because there is a error in this version,and it dosen't support 'tls/ssl'.
 
 Configuration
 =============
