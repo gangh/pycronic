@@ -56,8 +56,10 @@ pycronic
 
     # pypi
     sudo pip install pycronic
-    # 或者github
-    sudo pip install -e git+https://github.com/piglei/pycronic/#egg=pycronic
+    # 或者 github 安装最新版
+    sudo pip install https://github.com/huajigang/pycronic/archive/master.zip
+
+注意⚠️：请暂时不要使用 pypi 上的版本，该版本过老，其中的默认配置文件有误，且不支持 'tls/ssl'.
 
 配置
 ====
@@ -92,6 +94,8 @@ pycronic
     # password = password
     # from = Cronic <pycronic@sample.com>
     # port = 587
+    # use_tls = False
+    # use_ssl = False
 
 如何使用
 ========
