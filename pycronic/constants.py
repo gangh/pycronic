@@ -22,6 +22,8 @@ mail_title = %s
 # password = password
 # from = Cronic <pycronic@sample.com>
 # port = 587
+# use_tls = False
+# use_ssl = False
 ''' % (default_mail_title)
 
 
