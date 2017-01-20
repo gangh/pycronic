@@ -114,7 +114,7 @@ def main():
 
     # Check return code and stderr output
     # Also check if "ERROR" are in the stdout 
-    if ret_code != 0 or stderr_content or re.search(r'\bERROR\b', stdout_content):
+    if ret_code != 0:
         content = error_report_tmpl % {
                'command': command_str, 'ret_code': ret_code,
                'stderr_content': stderr_content or 'None',
